@@ -18,6 +18,8 @@ Checking AI-readiness: A command-line tool that ingests a CSV file, assesses dat
    - **Basic Profiling:**  
 
      Compute simple statistics (e.g., missing values, data types, distributions, number of unique entries and so on) for each column (attributes that are useful to determine how useful a dataset could be to improve).
+
+     Also check for uniform formatting, clean label and feature names, granularity, outliers and duplicates.
    - **Formatting Suggestions:**  
 
      By feeding the initial data quality assessment results to an open-source model, identify columns with obvious issues (like mixed data types), highlight them and suggest common fixes.
